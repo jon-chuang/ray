@@ -140,7 +140,6 @@ Status CoreWorkerPlasmaStoreProvider::Create(const std::shared_ptr<Buffer> &meta
   } else {
     RAY_RETURN_NOT_OK(status);
   }
-  return status;
 }
 
 Status CoreWorkerPlasmaStoreProvider::Seal(const ObjectID &object_id) {
