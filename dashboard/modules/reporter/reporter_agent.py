@@ -19,7 +19,6 @@ from ray._private.gcs_pubsub import GcsAioPublisher
 import ray._private.services
 import ray._private.utils
 import ray._private.memory_monitor as memory_monitor
-from ray._private.gcs_utils import use_gcs_for_bootstrap
 from ray.core.generated import reporter_pb2
 from ray.core.generated import reporter_pb2_grpc
 from ray.ray_constants import DEBUG_AUTOSCALING_STATUS
