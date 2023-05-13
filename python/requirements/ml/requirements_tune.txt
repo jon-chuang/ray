@@ -31,7 +31,7 @@ pytorch-lightning==1.6.5
 shortuuid==1.0.1
 scikit-optimize==0.9.0
 sigopt==7.5.0
-timm==0.4.5
+timm==0.9.1
 transformers==4.18.0; python_version <= '3.6'
 transformers==4.19.1; python_version > '3.6'
 wandb==0.13.4
